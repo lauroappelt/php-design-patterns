@@ -15,3 +15,8 @@
 Como diminuir a complexidade do nosso código, trocando múltiplas condicionais por classes
 [https://refactoring.guru/design-patterns/strategy](https://refactoring.guru/design-patterns/strategy)
 
+##### Chain of Responsability
+O padrão Chain of Responsibility é um padrão comportamental que permite que você passe solicitações por uma cadeia de manipuladores. Cada manipulador decide se processa a solicitação ou a passa para o próximo manipulador na cadeia
+
+[https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility](https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility)
+
