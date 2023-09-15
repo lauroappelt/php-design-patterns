@@ -20,3 +20,8 @@ O padrão Chain of Responsibility é um padrão comportamental que permite que v
 
 [https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility](https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility)
 
+##### Template method
+
+Template method é um padrão comportamental que define a estrutura de um algoritmo em uma classe base, mas permite que as subclasses substituam partes desse algoritmo sem alterar sua estrutura geral, dessa forma é fácil reutilizar código comum.
+
+[https://refactoring.guru/design-patterns/template-method](https://refactoring.guru/design-patterns/template-method)
