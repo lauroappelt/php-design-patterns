@@ -25,3 +25,9 @@ O padrão Chain of Responsibility é um padrão comportamental que permite que v
 Template method é um padrão comportamental que define a estrutura de um algoritmo em uma classe base, mas permite que as subclasses substituam partes desse algoritmo sem alterar sua estrutura geral, dessa forma é fácil reutilizar código comum.
 
 [https://refactoring.guru/design-patterns/template-method](https://refactoring.guru/design-patterns/template-method)
+
+##### State method
+
+O padrão State tem como objetivo permitir que um objeto altere seu comportamento interno quando seu estado muda. Isso é útil quando um objeto pode estar em um de vários estados e precisa executar diferentes ações com base em seu estado atual.
+
+[https://refactoring.guru/design-patterns/state](https://refactoring.guru/design-patterns/state)
