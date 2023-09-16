@@ -1,11 +1,22 @@
 <?php
 namespace Alura\DesignPattern;
 
+use Alura\DesignPattern\AcoesGerarPedido\AcaoAposGerarPedido;
+use Alura\DesignPattern\AcoesGerarPedido\CriarPedidoNoBanco;
+use Alura\DesignPattern\AcoesGerarPedido\EnviarPedidoPorEmail;
+
 class GerarPedidoHandler
-{
+{   
+    private array $acoesAposGerarPedido;
+
     public function __construct()
     {
         //dependencias
+    }
+
+    public function adicionaAcaoAoGerarPedido(AcaoAposGerarPedido $acao)
+    {
+        $this->acoesAposGerarPedido[] = $acao;
     }
 
     public function execute(GerarPedido $gerarPedido)
@@ -19,10 +30,8 @@ class GerarPedidoHandler
         $pedido->nomeCliente = $gerarPedido->nomeCliente;
         $pedido->orcamento = $orcamento;
 
-        //pedido repository
-        echo "Cria pedido" . PHP_EOL;
-
-        //mail service
-        echo "envia email pedido" . PHP_EOL;
+        foreach ($this->acoesAposGerarPedido as $acao) {
+            $acao->executaAcao($pedido);
+        }
     }
 }
