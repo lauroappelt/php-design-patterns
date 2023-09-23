@@ -31,3 +31,11 @@ Template method é um padrão comportamental que define a estrutura de um algori
 O padrão State tem como objetivo permitir que um objeto altere seu comportamento interno quando seu estado muda. Isso é útil quando um objeto pode estar em um de vários estados e precisa executar diferentes ações com base em seu estado atual.
 
 [https://refactoring.guru/design-patterns/state](https://refactoring.guru/design-patterns/state)
+
+##### Command
+
+[https://refactoring.guru/pt-br/design-patterns/command](https://refactoring.guru/pt-br/design-patterns/command)
+
+##### Observer
+
+[https://refactoring.guru/pt-br/design-patterns/observer](https://refactoring.guru/pt-br/design-patterns/observer)
