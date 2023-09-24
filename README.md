@@ -57,3 +57,33 @@ O Iterator é um padrão de projeto comportamental que permite a você percorrer
 O Adapter é um padrão que permite que objetos incompativeis possam trabalhar juntas. Isso atende o Principio da inversão de dependência do SOLID.
 
 [https://refactoring.guru/pt-br/design-patterns/adapter](https://refactoring.guru/pt-br/design-patterns/adapter)
+
+##### Bridge
+
+ChatGPT:
+
+O padrão de design Bridge é um padrão estrutural que visa separar uma abstração de sua implementação, permitindo que ambas possam evoluir de forma independente sem que uma afete a outra. Esse padrão é útil quando você tem um conjunto de classes complexas que podem ter múltiplas variações, e deseja evitar a explosão de subclasses ao lidar com essas variações.
+
+O Bridge é composto por duas hierarquias de classes separadas:
+
+<b>Abstraction (Abstração)</b>: Essa hierarquia representa a interface do cliente e contém uma referência a um objeto da hierarquia de implementação. A Abstração define métodos e comportamentos que serão usados pelo cliente, geralmente em um nível mais alto de abstração. No entanto, esses métodos delegam a implementação real para o objeto da hierarquia de Implementação.
+
+<b>Implementor (Implementação)</b>: Essa hierarquia contém as classes que implementam a funcionalidade real. Ela define a interface para as implementações concretas e contém os métodos que realmente executam o trabalho.
+
+O principal objetivo do Bridge é permitir que você combine diferentes abstrações com diferentes implementações de forma flexível, sem que seja necessário criar subclasses para todas as combinações possíveis, como aconteceria em uma abordagem de herança simples.
+
+Vantagens do Bridge Pattern:
+
+* Separação de preocupações: O Bridge separa a abstração da implementação, o que facilita a manutenção e a evolução de ambas independentemente.
+
+* Flexibilidade: Permite que você crie novas abstrações e implementações de forma independente, facilitando a composição de diferentes combinações.
+
+* Redução de classes filhas: Evita a criação de uma hierarquia massiva de subclasses quando há várias variações tanto na abstração quanto na implementação.
+
+* Extensibilidade: Facilita a adição de novas funcionalidades ou variações sem afetar o código existente.
+
+Um exemplo comum de Bridge Pattern poderia ser a criação de formas geométricas, onde você tem diferentes tipos de formas (círculos, quadrados, triângulos) e diferentes modos de desenho (desenho a lápis, pintura, desenho digital). O Bridge permitiria criar abstrações para as formas e implementações para os modos de desenho, permitindo que você combine qualquer forma com qualquer modo de desenho de forma flexível.
+
+Em resumo, o padrão Bridge é útil quando você precisa separar uma abstração da sua implementação, facilitando a composição de diferentes combinações e evitando a criação excessiva de subclasses. Isso torna o código mais flexível e mais fácil de manter à medida que novas variações são introduzidas.
+
+[https://refactoring.guru/pt-br/design-patterns/bridge](https://refactoring.guru/pt-br/design-patterns/bridge)
