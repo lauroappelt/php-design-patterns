@@ -39,3 +39,10 @@ O padrão State tem como objetivo permitir que um objeto altere seu comportament
 ##### Observer
 
 [https://refactoring.guru/pt-br/design-patterns/observer](https://refactoring.guru/pt-br/design-patterns/observer)
+
+
+##### Iterator
+
+O Iterator é um padrão de projeto comportamental que permite a você percorrer elementos de uma coleção sem expor as representações dele.
+
+[https://refactoring.guru/pt-br/design-patterns/iterator](https://refactoring.guru/pt-br/design-patterns/iterator)
