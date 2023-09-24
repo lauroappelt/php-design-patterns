@@ -11,6 +11,8 @@
     <br>
     * Criacionais
     Estes padrões tratam da criação de objetos de forma apropriada para a situação, ajudando a garantir que o sistema seja flexível e fácil de manter. Exemplos incluem o padrão <b>Singleton, Factory Method e Abstract Factory</b>.
+
+#### Padrões comportamentais
 ##### Strategy
 Como diminuir a complexidade do nosso código, trocando múltiplas condicionais por classes
 [https://refactoring.guru/design-patterns/strategy](https://refactoring.guru/design-patterns/strategy)
@@ -46,3 +48,12 @@ O padrão State tem como objetivo permitir que um objeto altere seu comportament
 O Iterator é um padrão de projeto comportamental que permite a você percorrer elementos de uma coleção sem expor as representações dele.
 
 [https://refactoring.guru/pt-br/design-patterns/iterator](https://refactoring.guru/pt-br/design-patterns/iterator)
+
+
+#### Padrões estruturais
+
+##### Adapter
+
+O Adapter é um padrão que permite que objetos incompativeis possam trabalhar juntas. Isso atende o Principio da inversão de dependência do SOLID.
+
+[https://refactoring.guru/pt-br/design-patterns/adapter](https://refactoring.guru/pt-br/design-patterns/adapter)
