@@ -93,3 +93,7 @@ Em resumo, o padrão Bridge é útil quando você precisa separar uma abstraçã
 O Decorator é um padrão que permite adicionar responsabilidades a um objetos de formadinâmica, sem a necessidade de criar subclasses infinitas.
 
 [https://refactoring.guru/pt-br/design-patterns/decorator](https://refactoring.guru/pt-br/design-patterns/decorator)
+
+##### Composite
+
+[https://refactoring.guru/pt-br/design-patterns/composite](https://refactoring.guru/pt-br/design-patterns/composite)
