@@ -87,3 +87,9 @@ Um exemplo comum de Bridge Pattern poderia ser a criação de formas geométrica
 Em resumo, o padrão Bridge é útil quando você precisa separar uma abstração da sua implementação, facilitando a composição de diferentes combinações e evitando a criação excessiva de subclasses. Isso torna o código mais flexível e mais fácil de manter à medida que novas variações são introduzidas.
 
 [https://refactoring.guru/pt-br/design-patterns/bridge](https://refactoring.guru/pt-br/design-patterns/bridge)
+
+##### Decorator
+
+O Decorator é um padrão que permite adicionar responsabilidades a um objetos de formadinâmica, sem a necessidade de criar subclasses infinitas.
+
+[https://refactoring.guru/pt-br/design-patterns/decorator](https://refactoring.guru/pt-br/design-patterns/decorator)

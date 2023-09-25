@@ -11,9 +11,9 @@ $orcamento = new Orcamento();
 $orcamento->valor = 1000;
 $orcamento->quantidadeDeItens = 3;
 
-// $calculadora = new CalculadoraDeImpostos();
-// echo $calculadora->calcula($orcamento, new ISS()) . PHP_EOL;
+$calculadora = new CalculadoraDeImpostos();
+echo $calculadora->calcula($orcamento, new ISS(new ICMS())) . PHP_EOL;
 // echo $calculadora->calcula($orcamento, new ICMS()) . PHP_EOL;
 
-$calculadora = new CalculadoraDeDescontos();
-echo $calculadora->calculaDescontos($orcamento) . PHP_EOL;
+// $calculadora = new CalculadoraDeDescontos();
+// echo $calculadora->calculaDescontos($orcamento) . PHP_EOL;
